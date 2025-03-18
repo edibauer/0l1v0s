@@ -25,23 +25,22 @@
         <!-- Links -->
         <ul class="cs-nav">
             <li class="cs-nav-li">
-                <span class="cs-header">Contacto</span>
+                <p>Contacto</p>
             </li>
             <li class="cs-nav-li">
                 <a class="cs-nav-link" href="tel:123-456 7890">55 4481 0680</a>
             </li>
             <li class="cs-nav-li">
-                <a class="cs-nav-link" href="mailto:info@codestitch.com">losolivoscat@proton.me</a>
+                <a class="cs-nav-link" href="mailto:info@codestitch.com">catering.olivos@outlook.com</a>
             </li>
         </ul>
         <ul class="cs-nav">
             <li class="cs-nav-li">
-                <span class="cs-header">Dirección</span>
+                <p>DIrección</p>
             </li>
             <li class="cs-nav-li">
                 <a class="cs-nav-link" href="">123 Avenue Street<br> Oak Harbor, WA 98101</a>
             </li>
-        </ul>
         </ul>
     </div>
 </footer>
@@ -134,21 +133,22 @@
     #cs-footer-274 .cs-nav {
         padding: 0;
         margin: 0;
+        display: flex;
+        flex-direction: column;
     }
     #cs-footer-274 .cs-nav-li {
         list-style: none;
         margin: 0;
         color: var(--bodyTextColor);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    #cs-footer-274 .cs-header {
-        font-size: 1rem;
-        line-height: 1.5em;
-        font-weight: 700;
-        /* 16px - 20px */
-        margin-bottom: clamp(1rem, 2.7vw, 1.25rem);
-        color: var(--bodyTextColor);
-        position: relative;
-        display: block;
+    #cs-footer-274 .cs-nav-li p{
+        margin: 0.5rem auto;
+        width: 100%;
+        font-weight: 600;
+        text-align: center;
     }
     #cs-footer-274 .cs-nav-link {
         font-size: 1rem;
@@ -200,12 +200,11 @@
         margin-top: 3rem;
     }
     #cs-footer-274 .cs-container {
-        justify-content: flex-end;
+        display: flex;
     }
     #cs-footer-274 .cs-logo-group {
         width: auto;
         margin: 0;
-        /*background-color: #ff0000;*/
         /* pushes the rest of the content to the right in a flexbox */
         margin-right: auto;
         align-items: center;
@@ -216,11 +215,11 @@
     }
     #cs-footer-274 .cs-nav {
         margin-top: 0.75rem;
+        display: block;
     }
     #cs-footer-274 .cs-social {
         /*background-color: #4e4b66;*/
     }
-
 }
 
                                 

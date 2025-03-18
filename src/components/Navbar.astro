@@ -6,7 +6,7 @@
     <div class="cs-container">
         <!--Nav Logo-->
         <!--Logo is turned white in the css with a filter on dark mode-->
-        <a href="" class="cs-logo" aria-label="back to home">
+        <a href="/" class="cs-logo" aria-label="back to home">
             <img src="https://raw.githubusercontent.com/edibauer/0l1v0s/refs/heads/master/los_olivos.png" alt="logo" width="60" height="60" aria-hidden="true" decoding="async">
         </a>
         <!--Navigation List-->
@@ -40,14 +40,17 @@
                         </span>
                         <ul class="cs-drop-ul">
                             <li class="cs-drop-li">
-                                <a href="/taquizas" class="cs-li-link cs-drop-link">Taquizas</a>
+                                <a href="/taquizas" class="cs-li-link cs-drop-link" id="drop-li">Taquizas</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="" class="cs-li-link cs-drop-link">Menú 2</a>
+                                <a href="/infantil" class="cs-li-link cs-drop-link" id="drop-li">Infantil</a>
                             </li>
                             <li class="cs-drop-li">
-                              <a href="" class="cs-li-link cs-drop-link">Menú 3</a>
-                          </li>
+                              <a href="/brunch" class="cs-li-link cs-drop-link" id="drop-li">Brunch</a>
+                            </li>
+                            <li class="cs-drop-li">
+                              <a href="/bocadillos" class="cs-li-link cs-drop-link" id="drop-li">Bocadillos</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="cs-li">
@@ -336,7 +339,7 @@
   }
   #cs-navigation .cs-li-link {
     /* 16px - 24px */
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-size: clamp(1.5rem, 2.5vw, 1.5rem);
     line-height: 1.2em;
     text-decoration: none;
     margin: 0;
@@ -353,6 +356,7 @@
   #cs-navigation .cs-button-solid {
     display: none;
   }
+
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
@@ -417,8 +421,8 @@
   }
   #cs-navigation .cs-li-link.cs-drop-link {
     /* 14px - 16px */
-    font-size: clamp(0.875rem, 2vw, 1.25rem);
-    color: #000;
+    font-size: clamp(1.2rem, 2vw, 1.25rem);
+    color: black;
   }
 }
 /* Desktop - 1024px */
@@ -703,7 +707,7 @@
     /* prevents padding from adding to the width */
     box-sizing: border-box;
     padding: 0 2rem;
-    color: #fff;
+    color: #c7c9bb;
     background-color: var(--primary);
     display: inline-block;
     position: relative;
@@ -714,7 +718,7 @@
     content: "";
     width: 0%;
     height: 100%;
-    background: #fff;
+    background: #c7c9bb;
     opacity: 1;
     position: absolute;
     top: 0;
@@ -728,6 +732,10 @@
   #cs-navigation .cs-button-solid:hover:before {
     width: 100%;
   }
+  .cs-drop-li {
+    background-color: #c7c9bb;
+  }
+
 }
 /* Large Desktop - 1300px */
 @media only screen and (min-width: 81.25rem) {
