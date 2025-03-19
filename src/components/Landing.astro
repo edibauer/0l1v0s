@@ -1,258 +1,179 @@
 <!-- ============================================ -->
-<!--                     Hero                     -->
+<!--                    Hero                      -->
 <!-- ============================================ -->
 
-<section id="hero-1946">
-    <div class="cs-container">
-        <div class="cs-content">
-            <h2 class="cs-title">Creamos experiencias culinarias inolvidables para cada ocasión</h2>
-            <div class="cs-flex">
-                <p class="cs-text">Creamos momentos mágicos y personalizados para cada ocasión: desde reuniones familiares hasta eventos corporativos. Deja que te sorprendamos con experiencias que emocionan y conectan.</p>
-            </div>
-        </div>
-        <picture class="cs-picture">
-            <source media="(min-width: 601px)" srcset="https://img.freepik.com/premium-photo/indulging-luxury-captivating-32-photo-gourmet-food-exquisite-restaurant_1000124-249323.jpg">
-            <source media="(max-width: 600px)" srcset="https://img.freepik.com/premium-photo/indulging-luxury-captivating-32-photo-gourmet-food-exquisite-restaurant_1000124-249323.jpg">
-            <img decoding="async" src="https://img.freepik.com/premium-photo/indulging-luxury-captivating-32-photo-gourmet-food-exquisite-restaurant_1000124-249323.jpg" alt="gourmet" width="1280" height="510">
-        </picture>
-        
-        <ul class="cs-card-group">
-            <li class="cs-item">
-                <picture class="cs-icon-picture">
-                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/tool.svg" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
-                </picture>
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Construction</h3>
-                    <p class="cs-item-text">Designing and Building The Most Beautiful Custom Homes.</p>
-                </div>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-icon-picture">
-                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/hard-hat.svg" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
-                </picture>
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Project Development</h3>
-                    <p class="cs-item-text">Designing and Building The Most Beautiful Custom Homes.</p>
-                </div>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-icon-picture">
-                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/double-bed.svg" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
-                </picture>
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Interior Design</h3>
-                    <p class="cs-item-text">Designing and Building The Most Beautiful Custom Homes.</p>
-                </div>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-icon-picture">
-                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/building.svg" decoding="async" alt="icon" width="40" height="40" aria-hidden="true">
-                </picture>
-                <!-- Text Grouped For Flexbox-->
-                <div class="cs-text-group">
-                    <h3 class="cs-h3">Architecture</h3>
-                    <p class="cs-item-text">Designing and Building The Most Beautiful Custom Homes.</p>
-                </div>
-            </li>
-        </ul>
-    </div>
+<section id="hero-2274">
+  <div class="cs-container">
+      <div class="cs-content">
+          <h1 class="cs-title">Creamos experiencias culinarias inolvidables para cada ocasión</h1>
+          <p class="cs-text">
+            Creamos momentos mágicos y personalizados para cada ocasión: desde reuniones familiares hasta eventos corporativos. Deja que te sorprendamos con experiencias que emocionan y conectan.
+          </p>
+      </div>
+  </div>
+  <div class="cs-image-group">
+      <!--Left Image-->
+      <picture class="cs-background cs-background1">
+          <source media="(max-width: 600px)" srcset="https://vilaplana.com/wp-content/uploads/2022/04/descripcion-de-una-empresa-de-catering.jpg">
+          <source media="(min-width: 601px)" srcset="https://vilaplana.com/wp-content/uploads/2022/04/descripcion-de-una-empresa-de-catering.jpg">
+          <img aria-hidden="true" decoding="async" src="https://vilaplana.com/wp-content/uploads/2022/04/descripcion-de-una-empresa-de-catering.jpg" alt="catering" width="1290" height="684">
+      </picture>
+  </div>
 </section>
 
 <style>
-    /*-- -------------------------- -->
-<---            Hero            -->
+/*-- -------------------------- -->
+<---           Hero             -->
 <--- -------------------------- -*/
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #hero-1946 {
-    padding: var(--sectionPadding);
-    /* 160px - 200px */
-    padding-top: clamp(10rem, 20vw, 12.5rem);
+  #hero-2274 {
+    /* 150px - 350px Top */
+    padding: clamp(9rem, 30.95vw, 21.875rem) 1rem 0;
     overflow: hidden;
     position: relative;
-    z-index: 1;
+    z-index: 10;
   }
-  #hero-1946 .cs-container {
+  #hero-2274 .cs-container {
     width: 100%;
     max-width: 80rem;
     margin: auto;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    z-index: 1;
+    justify-content: center;
+    gap: 5.5rem;
   }
-  #hero-1946 .cs-content {
+  #hero-2274 .cs-content {
     /* set text align to left if content needs to be left aligned */
-    text-align: center;
+    text-align: left;
     width: 100%;
-    /* 40px - 52px */
-    margin-bottom: clamp(2.5rem, 5vw, 3.25rem);
+    max-width: 39.375rem;
     display: flex;
     flex-direction: column;
     /* centers content horizontally, set to flex-start to left align */
-    align-items: center;
-    /* centers content vertically */
-    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    z-index: 10;
+  }
+  #hero-2274 .cs-title {
+    /* 39px - 61px */
+    font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    width: 100%;
+    max-width: 17ch;
+    margin: 0 0 1rem;
+    color: var(--bodyTextColorWhite);
+    position: relative;
+  }
+  #hero-2274 .cs-text {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    line-height: 1.5em;
+    width: 100%;
+    max-width: 43.75rem;
+    /* 28px - 40px */
+    margin: 0 0 clamp(1.75rem, 4vw, 2.5rem);
+    color: var(--bodyTextColorWhite);
+  }
+  #hero-2274 .cs-picture {
+    width: 100%;
+    /* 427px - 581px */
+    max-width: clamp(26.6875rem, 50vw, 36.3125rem);
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    z-index: 7;
+  }
+  #hero-2274 .cs-picture img {
+    width: 100%;
+    height: auto;
+  }
+  #hero-2274 .cs-image-group {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+  }
+  #hero-2274 .cs-background {
+    width: 100%;
+    height: 100%;
     position: relative;
     z-index: 1;
   }
-  #hero-1946 .cs-flex {
-    /* prevents flexbox from squishing it */
-    flex: none;
-  }
-  #hero-1946 .cs-title {
-    /* 39px - 61px */
-    font-size: clamp(2.438rem, 5vw, 3.813rem);
-  }
-  #hero-1946 .cs-text {
-    margin-bottom: 1.25rem;
-  }
-
-  #hero-1946 .cs-picture {
-    width: 100%;
-    /* 280px - 510px */
-    height: clamp(17.5rem, 58.6vw, 31.875rem);
-    /* 16px - 20px */
-    margin-bottom: clamp(1rem, 2vw, 1.25rem);
-    display: block;
-    position: relative;
-  }
-  #hero-1946 .cs-picture img {
+  #hero-2274 .cs-background img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 2.5rem;
     position: absolute;
+    opacity: 30%;
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
-  #hero-1946 .cs-card-group {
+  #hero-2274 .cs-background1:before {
+    content: '';
     width: 100%;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(12, 1fr);
-    /* 16px - 20px */
-    gap: clamp(1rem, 2vw, 1.25rem);
-  }
-  #hero-1946 .cs-item {
-    text-align: center;
-    list-style: none;
-    width: 100%;
-    margin: 0;
-    box-sizing: border-box;
-    /* 24px - 32px */
-    padding: clamp(1.5rem, 3vw, 2rem);
-    background-color: #F7F7F7;
-    border-radius: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-column: span 12;
-    position: relative;
-    z-index: 1;
-    transition: border-color 0.3s;
-  }
-  #hero-1946 .cs-item:hover {
-    border-color: var(--primary);
-  }
-  #hero-1946 .cs-item:hover .cs-h3 {
-    color: var(--primary);
-  }
-  #hero-1946 .cs-item:hover .cs-icon {
-    transform: rotateY(360deg);
-  }
-  #hero-1946 .cs-icon-picture {
-    margin-bottom: 1.25rem;
-    perspective: 700px;
-    transform-style: preserve-3d;
-  }
-  #hero-1946 .cs-icon {
-    width: 2.5rem;
-    height: auto;
+    height: 100%;
     display: block;
-    transition: transform 0.5s;
-  }
-  #hero-1946 .cs-h3 {
-    font-size: 1.25rem;
-    line-height: 1.5em;
-    text-align: inherit;
-    margin: 0;
-    margin-bottom: 0.75rem;
-    color: var(--headerColor);
-    transition: color 0.3s;
-  }
-  #hero-1946 .cs-item-text {
-    /* 14px - 16px */
-    font-size: clamp(0.875rem, 1.5vw, 1rem);
-    line-height: 1.5em;
-    text-align: inherit;
-    margin: 0;
-    color: var(--bodyTextColor);
-  }
-  #hero-1946 .cs-card-group {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #hero-1946 .cs-text {
-    font-size: 1.25rem;
-  }
-  #hero-1946 .cs-item {
-    text-align: left;
-    margin: 0;
-    align-items: flex-start;
-    grid-column: span 6;
-  }
-  #hero-1946 .cs-card-group {
-    display: none;
-  }
-}
-/* Small Desktop - 1024px */
-@media only screen and (min-width: 64rem) {
-  #hero-1946 .cs-content {
+  #hero-2274 {
+    padding-bottom: 9.375rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5.625rem;
   }
-  #hero-1946 .cs-title {
-    max-width: 46.875rem;
-  }
-  #hero-1946 .cs-item {
-    grid-column: span 3;
-  }
-  #hero-1946 .cs-card-group {
-    display: none;
-  }
-}
-/* Large Desktop 1300px */
-@media only screen and (min-width: 81.25rem) {
-  #hero-1946 .cs-title {
-    margin: 0;
-  }
-  #hero-1946 .cs-container {
-    flex-direction: column;
-  }
-  #hero-1946 .cs-content {
-    text-align: left;
-    max-width: 80rem;
-    gap: 1.25rem;
+  #hero-2274 .cs-container {
+    justify-content: flex-start;
     flex-direction: row;
+  }
+  #hero-2274 .cs-content {
+    text-align: left;
+    width: 53%;
     align-items: flex-start;
   }
-  #hero-1946 .cs-flex {
-    width: 50%;
-    max-width: 39.375rem;
+  #hero-2274 .cs-picture {
+    width: 56%;
+    position: absolute;
+    bottom: -4.0625rem;
+    right: -1.875rem;
   }
-  #hero-1946 .cs-card-group {
-    display: none;
+  #hero-2274 .cs-image-group {
+    flex-direction: row;
   }
 }
-                                
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #hero-2274 {
+    /* 100px - 172px */
+    padding-bottom: clamp(6.25rem, 12vw, 10.9375rem);
+  }
+  #hero-2274 .cs-picture {
+    width: 45%;
+    /* same value as the padding, but opposite */
+    bottom: calc(clamp(6.25rem, 12vw, 10.9375rem)*-1);
+    /* 32px - 80px */
+    right: clamp(2rem, 5vw, 5rem);
+  }
+}
+
+
 </style>
 
-                                
